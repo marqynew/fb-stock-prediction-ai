@@ -30,10 +30,10 @@ Berikut adalah contoh visualisasi hasil prediksi harga saham yang dihasilkan ole
 ![Perbandingan Prediksi](output.png)
  
  Prediksi Sentimen untuk Trading dengan RNN/LSTM 
- ![Perbandingan Prediksi](output1.png)
+ ![Perbandingan Prediksi](output2.png)
 
  Di bawah ini adalah contoh implementasi lain menggunakan LSTM untuk prediksi harga saham dengan pendekatan multivariate, di mana kita menggunakan beberapa fitur input (tidak hanya harga penutupan).
- ![Perbandingan Prediksi](output2.png)
+ ![Perbandingan Prediksi](output4.png)
 
 ## Metrik Evaluasi
 - **MSE (Mean Squared Error)**: Mengukur rata-rata dari kuadrat selisih antara nilai yang diprediksi dan nilai aktual.
