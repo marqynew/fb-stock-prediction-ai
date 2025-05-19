@@ -10,7 +10,8 @@ Model **LSTM** lebih unggul dibandingkan dengan **RNN** dalam mengatasi masalah 
 - **LSTM**: Menggunakan mekanisme *memory* yang memungkinkan model untuk mengingat informasi lebih lama dan menangani dependensi jangka panjang.
 - **Visualisasi Prediksi**: Membandingkan hasil prediksi antara model RNN dan LSTM dengan data aktual.
 - **Evaluasi Model**: Menggunakan metrik seperti **MSE**, **RMSE**, **MAE**, dan **R²** untuk mengevaluasi akurasi kedua model dalam memprediksi harga saham.
-- **Analisis Sentimen**: Sebagai contoh tambahan, kami menggabungkan analisis sentimen pasar yang dapat meningkatkan hasil prediksi saham.
+- **Analisis Sentimen untuk Trading**: Menambahkan analisis sentimen dari berita dan media sosial untuk meningkatkan prediksi harga saham.
+- **Multivariate Time Series dengan LSTM**: Menggunakan lebih dari satu fitur (seperti harga saham, volume perdagangan, dll.) untuk meningkatkan akurasi model dalam memprediksi harga saham.
 
 ## Teknologi yang Digunakan
 - **Python**: Bahasa pemrograman utama.
@@ -26,13 +27,22 @@ Model **LSTM** lebih unggul dibandingkan dengan **RNN** dalam mengatasi masalah 
 ## Contoh Hasil
 Berikut adalah contoh visualisasi hasil prediksi harga saham yang dihasilkan oleh model LSTM dan RNN:
 
-![Perbandingan Prediksi](path/to/your/image.png)
+![Perbandingan Prediksi](output.png)
+ 
+ Prediksi Sentimen untuk Trading dengan RNN/LSTM 
+ ![Perbandingan Prediksi](output1.png)
+
+ Di bawah ini adalah contoh implementasi lain menggunakan LSTM untuk prediksi harga saham dengan pendekatan multivariate, di mana kita menggunakan beberapa fitur input (tidak hanya harga penutupan).
+ ![Perbandingan Prediksi](output2.png)
 
 ## Metrik Evaluasi
 - **MSE (Mean Squared Error)**: Mengukur rata-rata dari kuadrat selisih antara nilai yang diprediksi dan nilai aktual.
 - **RMSE (Root Mean Squared Error)**: Menghitung akar kuadrat dari MSE, memberikan gambaran yang lebih jelas tentang seberapa besar kesalahan model.
 - **MAE (Mean Absolute Error)**: Mengukur rata-rata selisih absolut antara prediksi dan nilai aktual.
 - **R² (R-squared)**: Mengukur seberapa baik model dapat menjelaskan variasi dalam data.
+
+Perbandingan Metrik Antar Model 
+ ![Perbandingan Prediksi](output3.png)
 
 ## Kesimpulan
 Model **LSTM** lebih unggul dalam memprediksi harga saham dibandingkan dengan **RNN**, terutama karena kemampuannya dalam menangkap dependensi jangka panjang. Proyek ini menunjukkan bagaimana teknik deep learning dapat diterapkan untuk memprediksi harga saham di pasar finansial yang dinamis. 
