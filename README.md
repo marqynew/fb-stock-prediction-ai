@@ -21,7 +21,7 @@ Model **LSTM** lebih unggul dibandingkan dengan **RNN** dalam mengatasi masalah 
 - **tensorflow/keras**: Untuk membangun dan melatih model RNN dan LSTM.
 
 ## Langkah Penggunaan
-1. **Mempersiapkan Data**: Pastikan Anda memiliki data harga saham Facebook dalam format CSV dengan kolom seperti `Date`, `Open`, `High`, `Low`, `Close`, dan `Volume`.
+1. **Mempersiapkan Data**: Pastikan data harga saham Facebook dalam format CSV  dengan kolom seperti `Date`, `Open`, `High`, `Low`, `Close`, dan `Volume` berada pada file yang sama dengan code.
 2. **Jalankan Notebook**: Buka file `fb_stock_prediction.ipynb` menggunakan Jupyter Notebook atau Google Colab, kemudian jalankan setiap sel untuk memulai proses pelatihan dan prediksi.
 3. **Evaluasi Hasil**: Hasil prediksi dari model RNN dan LSTM akan ditampilkan bersama dengan grafik perbandingan antara harga saham yang diprediksi dan data aktual.
 
