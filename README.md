@@ -55,5 +55,4 @@ Model **LSTM** lebih unggul dalam memprediksi harga saham dibandingkan dengan **
 - Menerapkan teknik **ensemble learning** untuk meningkatkan akurasi.
 - Mengintegrasikan analisis sentimen dari berita dan media sosial untuk meningkatkan prediksi.
 
-## Author
-ammarqy
+> **Catatan**: Proyek ini bertujuan untuk tujuan edukasi. Gunakan prediksi dengan hati-hati, dan selalu pertimbangkan riset tambahan serta analisis saat membuat keputusan investasi.
