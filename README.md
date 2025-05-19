@@ -1,5 +1,3 @@
-# fb-stock-prediction-ai
-
 # Prediksi Harga Saham Facebook menggunakan RNN dan LSTM
 
 ## Deskripsi Proyek
